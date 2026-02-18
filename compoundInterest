@@ -1,0 +1,11 @@
+int compoundInterest()
+{
+    double principal = 10000, rate = 5, time = 2;
+    
+    double A = principal * ((pow((1 + rate / 100), time)));
+    double C = A - principal;
+
+    cout << "Your compound interest is " << C;
+
+    return 0;
+}

@@ -1,0 +1,15 @@
+int totalCost() {
+    double number;
+    double sum = 0;
+    std::cout << "Enter prices :\n";
+    while (true) {
+        std::cout << "Enter a price: ";
+        std::cin >> number;
+        if (number < 0) {
+  break;
+        }
+        sum += number;
+    }
+    std::cout << "Total ammount: " << sum << std::endl;
+return 0;
+}
