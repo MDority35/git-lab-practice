@@ -1,0 +1,9 @@
+int multiplicationTable(){
+	int n;
+	cout << “Type a number to find its multiplication results. “;
+	cin >> n;
+	int range = 12;
+	for (int i =1; i <= range; ++i)
+	cout << n << “ * “ << i << “ equals “ << n * i << endl;
+return 0;
+}
